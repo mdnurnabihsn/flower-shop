@@ -52,10 +52,11 @@
     justify-content: space-between;
     flex-direction: column;
     width: 80%;
-    padding: 180px 60px  60px 150px;
+    margin: 0 auto;
 }
 .featured-info{
     text-align: center;
+    margin-top: 100px;
 }
 .featured-info h1{
     color: #272727;
@@ -107,14 +108,26 @@
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 /* service section start */
 .service-sec{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 70%;
-    margin: 180px 60px  60px 150px;
+    width: 60%;
+    height: 320px;
+    margin:0 auto;
     background-color: #F4F4F4;
+    margin-bottom: 100px;
+}
+.service-sec .ser-info{
+    margin: 70px;
+    text-align: center;
+}
+.ser-info h4{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 16px;
 }
