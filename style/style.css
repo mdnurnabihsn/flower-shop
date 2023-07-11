@@ -131,3 +131,37 @@
     font-family: Lato;
     font-size: 16px;
 }
+
+/* discount section start */
+
+.dis-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 620px;
+    width: 100%;
+    background-color: #FEF6F8;
+}
+.dis-sec-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dis-sec-info h1{
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.dis-sec-info span{
+    color: #E55473;
+}
+.dis-sec-info p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
