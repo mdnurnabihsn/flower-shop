@@ -15,6 +15,16 @@
     width: 150px;
     cursor: pointer;
 }
+.primary-btn2{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    padding: 15px 30px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 /* banner section start */
 .banner{
@@ -164,4 +174,66 @@
     font-family: Lato;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+/* new porduct section start */
+.new-product{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+..new-tree-des{
+    margin-right: 70px;
+}
+.new-tree-des h1{
+    font-family: lato;
+    margin-bottom: 20px;
+}
+.new-tree-des p{
+    font-family: lato;
+}
+.new-tree-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+/* insta section start */
+.insta-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.insta-info{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.insta-info h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-info p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.insta-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 220px;
+    width: 130px;
+    gap: 20px;
 }
